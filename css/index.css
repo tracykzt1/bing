@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #333333;
+}
+
+.search{
+	width: 100%;
+	height: 768px;
+	background: url(../img/river.jpg) no-repeat center;
+	margin: 40px auto 0;
+	position: relative;
+}
+
+.search .logo{
+	position: absolute;
+    top: 156px;
+    left: 212px;
+    border: none;
+    outline: none;
+}
+
+
+.search .txt{
+	position: absolute;
+   	top: 163px;
+    left: 340px;
+}
+
+.search .txt input{
+	width: 340px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.search .txt button{
+	width: 29px;
+	height: 29px;
+	background: url(../img/btn.png) no-repeat center;
+	position: absolute;
+    top: 7px;
+    right: 10px;
+	border:none;
+	cursor: pointer;
+	outline: none;
+}
+
+.search .listUl{
+	width: 352px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 43px;
+	left: 0;
+	background: #fff;
+	display: none;
+}
+
+.search .listUl li{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	cursor:pointer;
+}
+
+.search .listUl li:hover{
+	background: #e5e5e5;
+	cursor: pointer;
+}
+
+
